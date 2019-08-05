@@ -1,0 +1,2 @@
+webpackJsonp([3],{612:function(e,t,n){var r=n(6),a=n(33),o=n(217).PageRenderer;o.__esModule&&(o=o.default);var c=a({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:n(616)}},componentWillMount:function(){},render:function(){return r.createElement(o,Object.assign({},this.props,{content:this.state.content}))}});c.__catalog_loader__=!0,e.exports=c},616:function(e,t){e.exports="## React Api parallel or series"}});
+//# sourceMappingURL=3.2f49e626.chunk.js.map
