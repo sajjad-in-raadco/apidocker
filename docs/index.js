@@ -39,7 +39,7 @@ const pages = [
 ReactDOM.render(
   <div>
     <GithubCorner
-      href="https://github.com/sajadweb/restql"
+      href="https://github.com/sajjad-in-raadco/apidocker"
       bannerColor="#fff"
       octoColor="#000"
       width={80}

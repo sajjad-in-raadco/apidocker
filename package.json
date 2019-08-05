@@ -3,7 +3,7 @@
   "description": "Boilerplate for React.js components",
   "author": "Sajjad Mohammadi nejad",
   "user": "sajad",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "start": "catalog start docs",
     "test": "jest",
@@ -59,11 +59,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sajadweb/restql.git"
+    "url": "https://github.com/sajjad-in-raadco/apidocker.git"
   },
-  "homepage": "https://sajadweb.github.io/restql/",
+  "homepage": "https://sajjad-in-raadco.github.io/apidocker/",
   "bugs": {
-    "url": "https://github.com/sajadweb/restql/issues"
+    "url": "https://github.com/sajjad-in-raadco/apidocker/issues"
   },
   "jest": {
     "collectCoverage": true,
