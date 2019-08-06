@@ -34,6 +34,7 @@ title: Nice Cat
 ```
 
 ```react
+
 <Rest 
  route="http://babahassan.ir/api/elements/site"
  method="GET"

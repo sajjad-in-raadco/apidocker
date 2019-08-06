@@ -7,7 +7,12 @@ const call = async ({ method, data, header, url }) => {
         data: data ? data : null,
         header: header ? header : null,
     }
-    return await Axios(url, optons);
+    const res= await Axios(url, optons);
+    if(res.status=="200"){
+        return res.data;
+    }else{
+        return res.error;
+    }
 }
 // static  seriesFun=async (data)=>{
 

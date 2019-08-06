@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GithubCorner from 'react-github-corner';
-import {Rest} from '../src';
+import {Rest} from '../dist-modules';
 import { Catalog, CodeSpecimen, ReactSpecimen, pageLoader } from 'catalog';
 
 import 'purecss/build/pure.css';
@@ -54,7 +54,7 @@ ReactDOM.render(
         js: props => <CodeSpecimen {...props} lang="javascript" />,
         jsx: props => <ReactSpecimen {...props} />
       }}
-      title="Apidocer"
+      title="Apidocker"
     />
   </div>,
   document.getElementById('catalog')
